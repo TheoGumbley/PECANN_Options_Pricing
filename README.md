@@ -69,7 +69,7 @@ This script also imports a local `Black\_Scholes.py` module (closed-form call pr
 
 ## Usage
 
-Configuration constants (data/collocation point counts, hidden layer width, epoch counts, optimiser switch point) are set near the top of `pecann\_black\_scholes.py`. PECANN hyperparameters (`pecann\_params`) and adaptive refinement hyperparameters (`adapt\_params`) are set as dictionaries near the bottom of the file:
+Configuration constants (data/collocation point counts, hidden layer width, epoch counts, optimiser switch point) are set near the top of `PECANN\_FINAL.py`. PECANN hyperparameters (`pecann\_params`) and adaptive refinement hyperparameters (`adapt\_params`) are set as dictionaries near the bottom of the file:
 
 ```python
 pecann\_params = {
