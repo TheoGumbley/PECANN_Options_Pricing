@@ -2,7 +2,7 @@
 
 This code trains a Physics and Equality Constrained Artificial Neural Network (PECANN) to price European call options under a partially non-dimensional Black-Scholes model, implemented in Python (PyTorch). The network is trained across a continuous range of asset prices, times, risk-free rates, and volatilities, producing a single model valid for a whole family of options rather than one fixed strike/volatility combination.
 
-A full technical write-up of the theory, methodology, and results is included in `PECANN\_Technical\_Doc_final.pdf`.
+A full technical write-up of the theory, methodology, and results is included in `PECANN\_Technical\_Doc\_final.pdf`.
 
 \---
 
