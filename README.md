@@ -92,7 +92,7 @@ adapt\_params = {
 Run with:
 
 ```bash
-python pecann\_black\_scholes.py
+python PECANN\_FINAL.py
 ```
 
 By default this runs `seed\_data\_analytics`, which trains the model 10 times with different random seeds and reports RMSE mean/standard deviation and violin plots across low/mid/high (σ, r) parameter regimes. This is computationally expensive (multiple hours depending on hardware). To run a single training pass instead, call `train(...)` and `validate(...)` directly with the output of `generate\_data()`.
